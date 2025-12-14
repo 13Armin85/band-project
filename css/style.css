@@ -227,13 +227,9 @@ html {
 }
 
 .news-content audio {
-  margin-top: 10px;
+  margin-top: 5px;
   width: 100%;
-  color: #dc1d1d;
-  outline: none;
-  border: 1px solid #444;
-  border-radius: 5px;
-  background-color: #000;
+  padding-bottom: 15px;
 }
 
 .latest-release {
@@ -476,6 +472,7 @@ html {
   cursor: pointer;
   display: inline-block;
   transition: background-color 0.3s ease, border-color 0.3s ease;
+  margin-bottom: 15px;
 }
 
 .view-all:hover {
@@ -754,7 +751,6 @@ footer {
   }
 }
 
-
 @media only screen and (min-width: 600px) and (max-width: 900px) {
   .header {
     padding: 10px 40px;
@@ -777,7 +773,6 @@ footer {
     margin-right: 20px;
   }
 }
-
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
   .header {
@@ -854,7 +849,6 @@ footer {
     width: 80%;
   }
 }
-
 
 @media only screen and (min-width: 1025px) {
   .header {
